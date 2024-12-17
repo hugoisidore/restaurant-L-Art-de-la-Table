@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5a2323;
+    padding: 10px 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .logo img {
+    height: 150px;
+  }
+
+  .logo-text {
+    color: #FFF1ED;
+    font-size: 24px;
+    margin-left: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center; /* Pour espacer les éléments de manière égale */
+    padding: 20px;
+    margin: 20px;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 30px;
+  }
+  
+  nav ul li a {
+    color: #FFF1ED;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .home-container, .menus-container, .contact-container {
+    padding: 20px;
+    text-align: center;
+  }
