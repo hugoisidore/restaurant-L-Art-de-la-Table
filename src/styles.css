@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
   }
@@ -11,8 +11,8 @@ body {
     align-items: center;
     background-color: #FFF1ED;
     padding: 8px 8px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-bottom: 1px solid #374A73;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 2px solid #374A73;
   }
   
   .logo img {
@@ -51,4 +51,70 @@ body {
   .home-container, .menus-container, .contact-container {
     padding: 10px;
     text-align: center;
+  }
+
+  h1, h2 {
+    color: #374A73;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+  }
+
+  p {
+    color: #374A73;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .section {
+    padding: 10px 100px;
+    margin: 30px;
+    border-bottom: 2px solid #374A73; /* Ligne de délimitation entre les sections */
+  }
+  
+  .section h1, .section h2 {
+    margin-top: 0px;
+  }
+
+  .centered-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; /* Ajuste la taille de l'image pour qu'elle ne dépasse pas la largeur de la page */
+    height: auto; /* Maintient le ratio de l'image */
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    margin-top: 10px;
+    font-weight: bold;
+    color:#374A73;
+  }
+  
+  form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #374A73;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #2c3e50;
   }
