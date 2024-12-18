@@ -9,17 +9,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #5a2323;
-    padding: 10px 10px;
+    background-color: #FFF1ED;
+    padding: 8px 8px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid #374A73;
   }
   
   .logo img {
-    height: 150px;
+    height: 180px;
   }
 
   .logo-text {
-    color: #FFF1ED;
+    color: #374A73;
     font-size: 24px;
     margin-left: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -28,17 +29,17 @@ body {
   nav ul {
     display: flex;
     justify-content: center; /* Pour espacer les éléments de manière égale */
-    padding: 20px;
-    margin: 20px;
+    padding: 0;
+    margin: 40px;
     list-style: none;
   }
   
   nav ul li {
-    margin-left: 30px;
+    margin: 0 80px;
   }
   
   nav ul li a {
-    color: #FFF1ED;
+    color: #374A73;
     text-decoration: none;
     font-size: 30px;
   }
@@ -48,6 +49,6 @@ body {
   }
   
   .home-container, .menus-container, .contact-container {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
