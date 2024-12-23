@@ -3,9 +3,9 @@
     <img src="public/logo.png" alt="logo">
   </div>
   <ul>
-    <li><a routerLink="#menus">Cartes & Menus</a></li>
-    <li><a routerLink="#reserver">Réserver</a></li>
-    <li><a routerLink="#contact">Contact</a></li>
+    <li><a routerLink="/menus">Cartes & Menus</a></li>
+    <li><a routerLink="/reserver">Réserver</a></li>
+    <li><a routerLink="/contact">Contact</a></li>
   </ul>
 </nav>
 <div class ="section" id="background">
@@ -25,6 +25,7 @@
 </div>
 <div class="section" id="reserver">
   <h2>Réserver votre table</h2>
+  <app-reservation-form></app-reservation-form>
 </div>
 <div class="section" id="contact">
   <h2>Nous contacter</h2>
@@ -55,6 +56,7 @@
     <button type="submit">Envoyer</button>
   </form>
 </div>
+<router-outlet></router-outlet>
 <footer>
   <p>© 2025 L'Art de la Table - Restaurant</p>
-<router-outlet></router-outlet>
+</footer>
