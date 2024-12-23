@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFF1ED;
+    background-color: #f8c5b7;
     padding: 8px 8px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-bottom: 2px solid #374A73;
@@ -133,6 +133,7 @@
     border-radius: 4px;
     cursor: pointer;
     font-family: Nunito, sans-serif;
+    font-size: 20px;
   }
   
   form button:hover {

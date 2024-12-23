@@ -14,10 +14,10 @@ import { ReservationService } from '../../services/reservation.service';
 export class ReservationFormComponent {
   reservation = {
     clientId: '',
-    tableId: '',
+    emailId: '',
     date: '',
     nombrePersonnes: 0,
-    statut: ''
+    message: ''
   };
 
   constructor(private reservationService: ReservationService) {}
