@@ -1,18 +1,18 @@
 <form (ngSubmit)="onSubmit()">
-    <label for="clientId">Client ID:</label>
-    <input type="text" id="clientId" [(ngModel)]="reservation.clientId" name="clientId" required>
+    <label for="clientId">Client :</label>
+    <input type="text" id="clientId" [(ngModel)]="reservation.clientId" name="clientId" placeholder="Jacques Dupont" required>
   
-    <label for="tableId">Table ID:</label>
-    <input type="text" id="tableId" [(ngModel)]="reservation.tableId" name="tableId" required>
+    <label for="emailId">Email :</label>
+    <input type="email" id="emailId" [(ngModel)]="reservation.emailId" name="emailId" placeholder="votre.email@mail.com" required>
   
-    <label for="date">Date:</label>
+    <label for="date">Date :</label>
     <input type="datetime-local" id="date" [(ngModel)]="reservation.date" name="date" required>
   
-    <label for="nombrePersonnes">Nombre de personnes:</label>
+    <label for="nombrePersonnes">Nombre de personnes :</label>
     <input type="number" id="nombrePersonnes" [(ngModel)]="reservation.nombrePersonnes" name="nombrePersonnes" required>
   
-    <label for="statut">Statut:</label>
-    <input type="text" id="statut" [(ngModel)]="reservation.statut" name="statut" required>
+    <label for="message">Message</label>
+    <textarea type="text" id="message" [(ngModel)]="reservation.message" name="message" placeholder="Vous pouvez saisir un message ici..." rows=6></textarea>
   
     <button type="submit">Créer la réservation</button>
   </form>
