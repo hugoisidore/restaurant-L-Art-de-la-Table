@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f8c5b7;
+    background-color: #FFF1ED;
     padding: 8px 8px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-bottom: 2px solid #374A73;
@@ -70,7 +70,7 @@
     padding: 10px 100px;
     margin: 30px;
     border-bottom: 2px solid #374A73; /* Ligne de délimitation entre les sections */
-    background-color:#FFF0ED;
+    background-color:#ced7ff;
   }
   
   .section h1, .section h2 {
