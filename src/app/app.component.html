@@ -15,13 +15,23 @@
   <h1>En quelques mots...</h1>
   <p>
     L’équipe de L'Art de la Table vous accueille dans une atmosphère chaleureuse et conviviale en plein centre ville de Wimereux. 
-    Vous pourrez déguster notre cuisine Française, savoureuse et raffinée, dans un cadre verdoyant et lumineux. 
+    Vous pourrez déguster notre cuisine Italienne, savoureuse et raffinée, dans un cadre verdoyant et lumineux. 
     Nous travaillons uniquement avec des produits 
     frais et de premier choix pour l’élaboration de nos plats, avec une carte imaginée au fil des saisons par notre chef.
   </p>
 </div>
 <div class="section" id="menus">
   <h2>Cartes & Menus</h2>
+  <div class="menu-section">
+    <div class="menu-tabs">
+      <button (click)="scrollToFragment('antipasti')">Antipasti</button>
+      <button (click)="scrollToFragment('secondi-piatti')">Secondi piatti</button>
+      <button (click)="scrollToFragment('nos-pasta')">Nos pasta</button>
+      <button (click)="scrollToFragment('nos-pizze')">Nos pizze</button>
+      <button (click)="scrollToFragment('dolce')">Dolce</button>
+    </div>
+      <app-menu-content></app-menu-content>
+  </div>
 </div>
 <div class="section" id="reserver">
   <h2>Réserver votre table</h2>
