@@ -3,10 +3,10 @@
     <img src="public/logo.png" alt="logo">
   </div>
   <ul>
-    <li><a routerLink="/menus">Cartes & Menus</a></li>
-    <li><a routerLink="/reserver">Réserver</a></li>
-    <li><a routerLink="/contact">Contact</a></li>
-  </ul>
+    <li><a (click)="scrollToFragment('menus')">Cartes & Menus</a></li>
+    <li><a (click)="scrollToFragment('reserver')">Réserver</a></li>
+    <li><a (click)="scrollToFragment('contact')">Contact</a></li>
+  </ul> 
 </nav>
 <div class ="section" id="background">
 <img src="public/wimereux-bg.jpg" alt="Photo de Wimereux Plage" class="centered-image">
