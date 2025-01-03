@@ -14,7 +14,7 @@
     align-items: center;
     background-color: #FFF1ED;
     padding: 8px 8px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Nunito, sans-serif;
     border-bottom: 2px solid #374A73;
   }
   
@@ -51,14 +51,14 @@
 
   h1 {
     color: #374A73;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Nunito, sans-serif;
     text-align: center;
     font-size: 50px;
   }
 
   h2 {
     color: #374A73;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Nunito, sans-serif;
     text-align: center;
     font-size: 40px;
   }
@@ -74,7 +74,7 @@
     padding: 10px 100px;
     margin: 30px;
     border-bottom: 2px solid #374A73; /* Ligne de délimitation entre les sections */
-    background-color:#ced7ff;
+    background-color:#FFF1ED;
   }
   
   .section h1, .section h2 {
