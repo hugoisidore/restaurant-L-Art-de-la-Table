@@ -74,7 +74,7 @@
     padding: 10px 100px;
     margin: 30px;
     border-bottom: 2px solid #374A73; /* Ligne de délimitation entre les sections */
-    background-color:#FFF1ED;
+    background-color:#eeeeee;
   }
   
   .section h1, .section h2 {
@@ -146,6 +146,7 @@
   
   .menu-section {
     margin: 20px 0;
+    color: #374A73;
   }
   
   .menu-tabs {
